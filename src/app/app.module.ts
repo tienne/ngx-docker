@@ -12,6 +12,8 @@ import { StaticModule } from './static';
 
 import { SwaggerModule } from '@app/swagger/swagger.module';
 
+import { ContainersModule } from '@app/containers/containers.module';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -33,6 +35,9 @@ import { AppComponent } from './app.component';
 
     // swagger
     SwaggerModule,
+
+    // containers
+    ContainersModule,
 
     // app
     AppRoutingModule
